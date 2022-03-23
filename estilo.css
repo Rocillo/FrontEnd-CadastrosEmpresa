@@ -8,8 +8,16 @@
 .corpo{
     background-color: dimgray!important;
 }
-.calendario{
+.calendario, .cadastroPessoa{
     text-align: center;
     margin-top: 25px;
     border: 5px;
+}
+.botao{
+    text-align: center;
+    margin-top: auto;
+}
+.lista{
+    text-align: center;
+    color: white!important;
 }

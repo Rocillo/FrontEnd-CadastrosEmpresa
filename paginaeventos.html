@@ -8,14 +8,33 @@
     <title>Cadastro de eventos</title>
 </head>
 <body class="corpo">
+    <script src="script.js"></script>
 
     <div class="titulo">CADASTRO DE EVENTOS</div>
 
     <div class="titulo">DATA DO EVENTO</div>
     
     <div class="calendario">
-        <input type="date" onchange="print()" id="diaDoEvento" placeholder="diaDoEvento">
+        <input type="date" id="diaDoEvento" placeholder="diaDoEvento">
     </div>
- <script src="script.js"></script>
+
+    <div class="titulo">NOME DO PARTICIPANTE</div>
+    <div class="cadastroPessoa">
+        <input id="nomeDaPessoa" placeholder="NOME" required>
+    </div>
+
+    <div class="titulo">IDADE DO PARTICIPANTE</div>
+    <div class="cadastroPessoa">
+        <input type="number" id="idadeDaPessoa" placeholder="IDADE" required>
+    </div>
+
+    <div class="titulo">FINALIZAR CADASTRO</div>
+    <div class="cadastroPessoa">
+        <input class="botao" type="button" value="CADASTRAR" onclick="submit()">
+    </div>
+
+    <div class="titulo">Lista de Usuários:</div>
+    <div class="lista" id="users"></div>
+
 </body>
 </html>
