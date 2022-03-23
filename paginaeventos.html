@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css"> 
     <title>Cadastro de eventos</title>
 </head>
-<body>
-    <script onload="cadastro.js"></script>
-    <style>
-        .h1{
-            color: red!important;
-        }
-    </style>
+<body class="corpo">
+
+    <div class="titulo">CADASTRO DE EVENTOS</div>
+
+    <div class="titulo">DATA DO EVENTO</div>
     
-    <h1>CADASTRO DE EVENTOS</h1>
-
-
+    <div class="calendario">
+        <input type="date" onchange="print()" id="diaDoEvento" placeholder="diaDoEvento">
+    </div>
+ <script src="script.js"></script>
 </body>
 </html>

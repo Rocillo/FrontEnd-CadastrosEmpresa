@@ -1,0 +1,15 @@
+.titulo{
+    color: orangered;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Roboto','Arial';
+    margin-top: 50px;
+}
+.corpo{
+    background-color: dimgray!important;
+}
+.calendario{
+    text-align: center;
+    margin-top: 25px;
+    border: 5px;
+}
