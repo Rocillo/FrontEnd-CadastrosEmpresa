@@ -1,6 +1,6 @@
 function submit(){
 	var list = document.getElementById('users');
-	var username = document.getElementById('nomeDaPessoa').value;
+	var username = document.getElementById('nomeDaPessoa').value.toUpperCase();
 	var entrada = document.createElement('li');
 	var idade = document.getElementById('idadeDaPessoa').value;
 	var quantidade = list.childElementCount;
@@ -21,7 +21,7 @@ function submit(){
 		else if (idade < 18){
 			alert("Não é possível cadastrar pessoas com menos de 18 anos!");
 		}
-		else if (quantidade >= 10) {
+		else if (quantidade >= 100) {
 			alert("Capacidade máxima de participantes!")
 		}
 		else{
