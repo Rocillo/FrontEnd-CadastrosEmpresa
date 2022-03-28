@@ -6,7 +6,7 @@
     margin-top: 50px;
 }
 .corpo{
-    background-color: gray!important;
+    background-image:linear-gradient(to top, bisque, bisque);
 }
 .calendario, .cadastroPessoa{
     text-align: center;
@@ -23,13 +23,12 @@
     font-size: 1rem;
     font-family: 'Arial Black', 'Roboto';
 }
-.container{
-    margin: auto;
+    /* margin: auto;
     margin-left: auto;
     border-style: dashed;
     border-color: black!important;
     background-image:linear-gradient(to top, bisque, white);
-}
+}*/
 /* List */
 ul {
     counter-reset: index;  
